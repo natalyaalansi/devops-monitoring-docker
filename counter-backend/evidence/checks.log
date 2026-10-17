@@ -1,0 +1,48 @@
+========== counter-single ==========
+GET (initial):
+{"count": 0}
+HTTP status: 200
+POST 1:
+{"count": 1}
+HTTP status: 201
+POST 2:
+{"count": 2}
+HTTP status: 201
+GET (final):
+{"count": 2}
+HTTP status: 200
+USER:
+uid=0(root) gid=0(root) groups=0(root)
+
+========== counter-multistage ==========
+GET (initial):
+{"count": 0}
+HTTP status: 200
+POST 1:
+{"count": 1}
+HTTP status: 201
+POST 2:
+{"count": 2}
+HTTP status: 201
+GET (final):
+{"count": 2}
+HTTP status: 200
+USER:
+uid=0(root) gid=0(root) groups=0(root)
+
+========== counter-nonroot ==========
+GET (initial):
+{"count": 0}
+HTTP status: 200
+POST 1:
+{"count": 1}
+HTTP status: 201
+POST 2:
+{"count": 2}
+HTTP status: 201
+GET (final):
+{"count": 2}
+HTTP status: 200
+USER:
+uid=1001(user) gid=1001(user) groups=1001(user),100(users)
+

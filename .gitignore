@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local monitoring data
+monitoring/prometheus/data/
+monitoring/grafana/data/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs (evidence/checks.log must remain tracked)
+*.log
+!counter-backend/evidence/checks.log

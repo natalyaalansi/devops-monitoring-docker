@@ -1,0 +1,10 @@
+node_arp_entries{device="br-246037a0fe06"} 2
+node_arp_entries{device="enp0s1"} 3
+node_boot_time_seconds 1.792219606e+09
+node_context_switches_total 3.944852e+06
+node_cooling_device_cur_state{name="0",type="Processor"} 0
+node_cooling_device_cur_state{name="1",type="Processor"} 0
+node_cooling_device_max_state{name="0",type="Processor"} 0
+node_cooling_device_max_state{name="1",type="Processor"} 0
+node_cpu_guest_seconds_total{cpu="0",mode="nice"} 0
+node_cpu_guest_seconds_total{cpu="0",mode="user"} 0

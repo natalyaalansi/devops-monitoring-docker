@@ -1,0 +1,11 @@
+REPOSITORY           TAG                    SIZE
+counter-single       latest                 362MB
+counter-nonroot      latest                 261MB
+counter-multistage   latest                 260MB
+python               3.11-slim              215MB
+nginx                alpine                 93.9MB
+alpine               latest                 13.6MB
+grafana/grafana      12.1.0                 905MB
+prom/prometheus      v3.5.0                 423MB
+prom/node-exporter   v1.9.1                 39.5MB
+python               3.11.6-slim-bookworm   221MB
